@@ -2,61 +2,56 @@
 <html lang="id">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Muhammad Farhan | Portfolio</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-
-  <header>
+  <!-- HEADER -->
+  <header class="header">
     <h1>Muhammad Farhan</h1>
-    <p>Frontend Developer (Junior)</p>
-    <button id="toggleDark">🌙 Dark Mode</button>
+    <button id="themeToggle">🌙 Dark</button>
   </header>
 
-  <section>
-    <h2>Tentang Saya</h2>
+  <!-- HERO -->
+  <section class="hero">
+    <h2>Frontend Developer (Junior)</h2>
     <p>
       Mahasiswa Ilmu Komputer semester 5 yang fokus pada Frontend Web Development.
       Terbiasa membangun website menggunakan HTML, CSS, dan JavaScript.
-      Sedang mempersiapkan diri untuk program magang sebagai Frontend Developer.
+      Sedang mempersiapkan diri untuk program magang.
     </p>
   </section>
 
-  <section>
-    <h2>Skill</h2>
+  <!-- SKILLS -->
+  <section class="card">
+    <h3>Skills</h3>
     <ul>
       <li>HTML5 (Semantic HTML)</li>
-      <li>CSS3 (Flexbox, Responsive Design)</li>
-      <li>JavaScript (DOM Manipulation & Event Handling)</li>
-      <li>Git & GitHub (Version Control)</li>
+      <li>CSS3 (Flexbox & Responsive Design)</li>
+      <li>JavaScript (DOM & Event Handling)</li>
+      <li>Git & GitHub</li>
     </ul>
   </section>
 
-  <section>
-    <h2>Projects</h2>
-    <ul>
-      <li>
-        <strong>Portfolio Website</strong><br>
-        Website pribadi untuk menampilkan profil dan project.<br>
-        Dibangun menggunakan HTML, CSS, dan JavaScript.<br>
-        <a href="https://cros27.github.io/portfolio/" target="_blank">🔗 Live Demo</a>
-      </li>
-      <li>
-        <strong>Todo List App</strong><br>
-        Aplikasi todo list dengan fitur tambah dan hapus data.<br>
-        Menggunakan JavaScript (DOM & Event).<br>
-        <a href="https://cros27.github.io/todo-list/" target="_blank">🔗 Live Demo</a>
-      </li>
-    </ul>
+  <!-- PROJECTS -->
+  <section class="card">
+    <h3>Projects</h3>
+
+    <div class="project">
+      <h4>Portfolio Website</h4>
+      <p>Website pribadi untuk menampilkan profil dan project.</p>
+      <a href="https://cros27.github.io/portfolio/" target="_blank">Live Demo</a>
+    </div>
+
+    <div class="project">
+      <h4>Todo List App</h4>
+      <p>Aplikasi todo list sederhana menggunakan JavaScript.</p>
+      <a href="https://cros27.github.io/todo-list/" target="_blank">Live Demo</a>
+    </div>
   </section>
 
-  <section>
-    <h3>Contact</h3>
-    <p>Email: mfharhan406@gmail.com</p>
-    <p>GitHub: <a href="https://github.com/cros27" target="_blank">github.com/cros27</a></p>
-  </section>
-
+  <!-- FOOTER -->
   <footer>
     <p>© 2026 Muhammad Farhan</p>
   </footer>
